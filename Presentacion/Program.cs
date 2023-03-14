@@ -16,7 +16,7 @@ namespace Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MiPrimerFormulario());
+            Application.Run(new Frm_encuesta());
 
             /*Click derecho en presentacion, add, crear form.
              * Control+alt+x = para sacar el toolbox
@@ -28,7 +28,25 @@ namespace Presentacion
              * forecolor: para cambiar el color del texto
              * Font: para cambiar la fuente del texto
              * IMG: para añadirle una imagen al boton o al cuerpo.
+             * rayito que esta en las propiedades: sirve para poner acciones a los botones etc...ara 
+             * click: para poner una funcion cucando se le de click
+             * xt_descripcion.Text = ""; para que ponga lo que esta en la comilla.
+             * txt_codigo.Select(); select para que el cursos se llama ahi cuando accione el click.
+             * txt_codigo.focus(); este mejor, para que el cursos se llama ahi cuando accione el click
+             * tabIndex: el orden de tabulacion que llevara.
+             * Enable: sirve para habilidad y deshabilidad el textbox o boton etc...
+             * MaxLength: para poner el maximo de caracteres permitidos.
+             * Radio buttton: si seleccionas uno no sirve el otro.
+             * "\r\n";" para colocar las cosas en columna.
+             * 
+             * 
              */
+            string nombre;
+            string apellido;
+
+            nombre = "Gerald";
+            apellido = "leonardo";
+            Console.WriteLine("{0}", nombre , apellido );
         }
     }
 }

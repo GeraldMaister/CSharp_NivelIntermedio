@@ -22,8 +22,16 @@ namespace Presentacion
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_nuevo_Click(object sender, EventArgs e)
         {
+            //para limpiar
+            txt_codigo.Text = "";
+            txt_descripcion.Text = "";
+            //para habilitar las casillas
+            txt_codigo.Enabled = true;
+            txt_descripcion.Enabled = true;
+            //para hacer focus a txt_codigo
+            txt_codigo.Focus();
 
         }
     }

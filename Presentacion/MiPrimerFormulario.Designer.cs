@@ -29,76 +29,109 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MiPrimerFormulario));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_nuevo = new System.Windows.Forms.Button();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_salir = new System.Windows.Forms.Button();
+            this.btn_reporte = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
+            this.txt_descripcion = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_nuevo
             // 
-            this.button1.BackColor = System.Drawing.Color.SeaGreen;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_nuevo.BackColor = System.Drawing.Color.SeaGreen;
+            resources.ApplyResources(this.btn_nuevo, "btn_nuevo");
+            this.btn_nuevo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.UseVisualStyleBackColor = false;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
-            // button2
+            // btn_actualizar
             // 
-            this.button2.BackColor = System.Drawing.Color.SeaGreen;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_actualizar.BackColor = System.Drawing.Color.SeaGreen;
+            resources.ApplyResources(this.btn_actualizar, "btn_actualizar");
+            this.btn_actualizar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn_eliminar
             // 
-            this.button3.BackColor = System.Drawing.Color.SeaGreen;
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_eliminar.BackColor = System.Drawing.Color.SeaGreen;
+            resources.ApplyResources(this.btn_eliminar, "btn_eliminar");
+            this.btn_eliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_salir
             // 
-            this.button4.BackColor = System.Drawing.Color.SeaGreen;
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_salir.BackColor = System.Drawing.Color.SeaGreen;
+            resources.ApplyResources(this.btn_salir, "btn_salir");
+            this.btn_salir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_salir.Name = "btn_salir";
+            this.btn_salir.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btn_reporte
             // 
-            this.button5.BackColor = System.Drawing.Color.SeaGreen;
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_reporte.BackColor = System.Drawing.Color.SeaGreen;
+            resources.ApplyResources(this.btn_reporte, "btn_reporte");
+            this.btn_reporte.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_reporte.Name = "btn_reporte";
+            this.btn_reporte.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // txt_codigo
+            // 
+            resources.ApplyResources(this.txt_codigo, "txt_codigo");
+            this.txt_codigo.Name = "txt_codigo";
+            // 
+            // txt_descripcion
+            // 
+            resources.ApplyResources(this.txt_descripcion, "txt_descripcion");
+            this.txt_descripcion.Name = "txt_descripcion";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // MiPrimerFormulario
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txt_descripcion);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txt_codigo);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btn_salir);
+            this.Controls.Add(this.btn_reporte);
+            this.Controls.Add(this.btn_eliminar);
+            this.Controls.Add(this.btn_actualizar);
+            this.Controls.Add(this.btn_nuevo);
             this.Name = "MiPrimerFormulario";
             this.Load += new System.EventHandler(this.MiPrimerFormulario_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_nuevo;
+        private System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.Button btn_reporte;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txt_codigo;
+        private System.Windows.Forms.TextBox txt_descripcion;
+        private System.Windows.Forms.Label label2;
     }
 }

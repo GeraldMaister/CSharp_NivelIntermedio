@@ -9,3 +9,15 @@ C:\Users\Geral\source\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Pr
 C:\Users\Geral\source\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 C:\Users\Geral\source\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\Geral\source\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.pdb
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\bin\Debug\Presentacion.exe.config
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\bin\Debug\Presentacion.exe
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\bin\Debug\Presentacion.pdb
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.MiPrimerFormulario.resources
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.exe
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.pdb
+C:\repos\Sol_CSharp_NivelIntermedio\Presentacion\obj\Debug\Presentacion.Frm_encuesta.resources
