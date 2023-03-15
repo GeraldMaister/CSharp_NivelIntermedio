@@ -16,7 +16,7 @@ namespace Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_encuesta());
+            Application.Run(new MiPrimerFormulario());
 
             /*Click derecho en presentacion, add, crear form.
              * Control+alt+x = para sacar el toolbox
@@ -38,6 +38,10 @@ namespace Presentacion
              * MaxLength: para poner el maximo de caracteres permitidos.
              * Radio buttton: si seleccionas uno no sirve el otro.
              * "\r\n";" para colocar las cosas en columna.
+             * propiedad visible: para que esten oculto o que aparezcan.
+             * propiedad flatStyle: para dar estilo a los objeto.
+             * contenedores: groupBox: 
+             * 
              * 
              * 
              */

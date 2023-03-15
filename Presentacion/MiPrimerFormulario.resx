@@ -117,163 +117,281 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_nuevo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Tai Le, 11.25pt</value>
+  <data name="&gt;&gt;btn_cancelar.Name" xml:space="preserve">
+    <value>btn_cancelar</value>
   </data>
-  <data name="btn_nuevo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        rQAAAK0BVE7WMAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAK4SURBVFhH7ZdL
-        aBNRFIbvvZlHMkmbkIRWafFFF1VQDCnFUhtJi7VCW7SIoiAq6spNEbRWd0XQduETtbQQ0PrcFEUK4qOg
-        m0KlPkDEheLKjWLrK2qaxOOZ6KST5DaZmboRcuBjcs/k/ucjj8mEAIAhKrzspF0kcUIIGEUUaBSPtbw8
-        DW4zG6wyRSaJZxEZJkcK8/6CAL3NBHweIeGQ2RTuX8TLVeE2s8Gq9peSxK+HdjDC9EUBzrcSWFdfGu3p
-        rIgrDvYWMzzcbF4zG9MClwTobyOwtq40mnxVA9vbfT9cim0Mc8Sc7OwGDysCg+0Emlb9Efj5Igj1QVfU
-        6WDXcrKzGzysCEQ2EAjXulICKpOPA7C4Uo7aJdaTka1fzIZZgfhVEa5sIhBY6oh+HA+AxpOby8ClsBjm
-        bUxn6wfNhlkBlQ+DIixfwJK4Vw3IQLSRs+ls/aDZwDItwCM2IMDhUFGgKPCfCvg66tgXXqgZLAuoJIal
-        17xQM5gWwJKI7JzAo7oAxih0bha44UawIhCm5VVxFnkH4rk34N16PSURe8AfUAgrAi104coEu/ENhKEp
-        8O++m3olvt/jDyhEUSCvANZ8Yi/pp+5599Monqd0STAlYLv8Cbz7HgGhFBpX+6CpwQ8tITe0hZxwdK8I
-        06P8oXryCzhcp+mK5iTdcwr0sL4xUAU0aPfwzLldJ8AZPgAevxdG+iTuUD2xARt0N6AAI2dyBGhJ2S26
-        ozdjmBE8XRPgrQpC5JAIL4dk6NomcDm4xQb71xBwSUS9Ien4pwJSZc1XDN2JVCPH83AMaUVYjsBc3gKm
-        +D5j6HotywwzD4x+CHELdZePps47vXeo5LxNGDuCfUEfbBRuUwOL+zVE7LznW4Hb1CgKYDVm/xjhhUi9
-        1c75i2UVblMDSyaS8hyP6uLvcJa+is0dIL8BnVDQ3dQLK/MAAAAASUVORK5CYII=
-</value>
+  <data name="&gt;&gt;btn_cancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btn_nuevo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 296</value>
+  <data name="&gt;&gt;btn_cancelar.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
   </data>
-  <data name="btn_nuevo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 85</value>
+  <data name="&gt;&gt;btn_cancelar.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btn_nuevo.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btn_guardar.Name" xml:space="preserve">
+    <value>btn_guardar</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Name" xml:space="preserve">
+    <value>txt_descripcion</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="btn_nuevo.Text" xml:space="preserve">
-    <value>Nuevo</value>
+  <data name="&gt;&gt;txt_codigo.Name" xml:space="preserve">
+    <value>txt_codigo</value>
   </data>
-  <data name="btn_nuevo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <data name="&gt;&gt;txt_codigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btn_nuevo.Name" xml:space="preserve">
-    <value>btn_nuevo</value>
+  <data name="&gt;&gt;txt_codigo.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
   </data>
-  <data name="&gt;&gt;btn_nuevo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_nuevo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_nuevo.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btn_actualizar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Tai Le, 11.25pt</value>
-  </data>
-  <data name="btn_actualizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAK+SURBVFhHtde7
-        a1RBFMfxMY3RBCMIgmAUHxElqGglqJ2lkKiglYWCEC3VP0BEFAsJCKKSxsIHWlqIYGLESvHRKKKEYIyV
-        j/hGVND1+7u5N5w5O5vskpsDH8idPWfO7s3sndlQqVTqQrSgG324jyH8wAc8wGUcwzbMcrVrcQ977Hj2
-        mh/wiOXQ5L+ggXq8wCG0Qs3fQ+N3q+b3AwVCxWfxB8XEjfqCMXM9WtXHD2SDIazEs7yoTP/QHPWyF9lA
-        CFvwGbawTJ1Rv+hi/JN/zBOn8g63MIBG3nBX1NM0b8OrPKmWm9A3YXE0CaseevMn4Gu8I1GtmaTXJHlf
-        sc8WesQa6K74Wu98VJcXd6DWatd3fKkt8gjdgTfwtSn9UW0+wTWTYH1Duy1IIZqhB41WuZ/DG3G12RPu
-        J3yi9NjkqRBz0Amtk6O4gH6M4C+UNORqwu78BW8Q0SN1OojZWI02Nx4uwTYudNvEmaLQxuKby6QLrywK
-        /X9887FU8kxQvM2bWgOp5OkgtDBH8RBXoK17FcJ6aNe7jdf4jYOpSaaD0GPbfkgZTiWWtvItojgTWCPJ
-        5LIRS0xTazBZUDZip2lq9flEPVIX2rEyEHdgGxd2+UQtQv2hPeApbuAk9mMrFtn8ehA9KBpaOtDO9cna
-        dn2ip0IdUptsbQqhA+13+DnkapbjCh6bhMlEO1oKsQxP8nxPW39HlueKam3Llo5s62ydRxxArU8uZyZy
-        XeFxk1TLaegA4398tGMHUg8c6yXmTdS5SfbmSfXQmV8HUjVMPWRSdPdWRD2jixA25YkzQSfnzbZf1jO6
-        CGFBnly258gWnVc9EMKnvEh0m/W1K64bpdV+Dq2+T6F6YHy71B96IxsxH4cxjGLiqeiHrJ4V0f87pXqA
-        rRh6Cm5w403YjlO4jkfQotId0k91nawuogsttra2SvgPkPVJLAa6K7IAAAAASUVORK5CYII=
-</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btn_actualizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_actualizar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 296</value>
-  </data>
-  <data name="btn_actualizar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 85</value>
-  </data>
-  <data name="btn_actualizar.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;txt_codigo.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="btn_actualizar.Text" xml:space="preserve">
-    <value>Actualizar</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="btn_actualizar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btn_actualizar.Name" xml:space="preserve">
-    <value>btn_actualizar</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
   </data>
-  <data name="&gt;&gt;btn_actualizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_actualizar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_actualizar.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btn_eliminar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Tai Le, 11.25pt</value>
-  </data>
-  <data name="btn_eliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAO8SURBVFhHxZdb
-        SFRBGIB3KzMtxMpizcuuUtCLUkEXIgokCsHSyiAqeqhotfQp3CVvGWleKiwjLVG0tLzVS5GXHjQjxQjy
-        ITQytSDS9bJaiqiZ/s0/6zl75uycdTOXHj7YmT3z/985M/PPOSoAcIzq9a5QpQ2FCt09qNQ1EjqgUjtq
-        AX+TPvwPr8FreTE4cDsZnmq9oUqXRxKMEMBBRugYHMuLKYHbSSnSLYPKgFQSbEwW/G8gY0kMjMXLQeB2
-        koEaQoskEGW6PBBeZ51hSNXfZpgoDWDGzIKxNLxcNh1QGRhE5vWbLABl8vEGiDX0whVDI2Qbyii7Qlop
-        QTs/gW9wN3xN8ILpR342Yy0xSWxZPqZBLiR3zk+OCAIv4k5BT5yKwXgshwp0XvSA/mQXOxLsk7Amp3PO
-        PvbGutNQ0pQh8qApC6LqvkN6bQUU1qZQDtYUUbY+ewXa8nYIq3lI2+F1xXCovgRSqi8D2R0SCZJDsias
-        ApYFJ70QMj88gcgpsIuqpt4uwQ3VMJyxXCZBcjECuF04q32hBHCKhtMZiTFhi1oELPucSY4spICNBOak
-        Ali1FIrMQgvIJEYwN7l7Ujo5yZHxYn+4m1AAMfEmRfx2dCuyN6IFvlxyYwSQISqhJU9BG6oiNljbuQLI
-        /cQCuvWUwK2nxL79zTbJBVBiukybj3sfDxZuckQqcC7fDFF3BsW2PtcMurhOMeHasI/gdaTNIQHEnOZu
-        QgE8ybjJEUEgOmuAzvnR8RmISTLBhat9EDkJoK5tAP8D3bBuWyeonzfQedeEWKriXAJ98YuniAA9TrnJ
-        EUFAn2cWF9759H6Iyh4UF6FO3wWaPR3iwlsT0e6QQI9BjQXo/wmYjOoZh6fAGQJ9CUt+ObwInSEwkLL0
-        h8Pb0BkCZBe02S1EiDMFfl5fkWS3FCPOEjAZF82Yc1Z52D2MEFGAFB1RIK0fom9a6gIm1J7tAu/dEoHw
-        uQXMqe5t1tNQ4ThGBAGs+8c/T8LJ1nHajjX2wom2CVj98j34brZUPrfMt+Ca2ww+W7rsCvQa1TCc7bnJ
-        KoBwXkikAkpgIiWUBIauub8R8loFOK9kzhAYSHYZJXfvaSuAcF5KS5OyINHwTpGN2zsViQyrZZKT2v97
-        6NbKYGlOVgCRvZZPlfhgxWICzQdMPnrD87A8H9MQkX2Y/KsEPnb5nQvYdIjIPs3mI4GrHRecdM7lcDsZ
-        JB+njkrQIkP2ubDV7MHt5DL7eT5ZqCnDQwRPMjxOEfyNfVjbsbxihePGsAFUfwAg/43QQbgZ/AAAAABJ
-        RU5ErkJggg==
-</value>
-  </data>
-  <data name="btn_eliminar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_eliminar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 296</value>
-  </data>
-  <data name="btn_eliminar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 85</value>
-  </data>
-  <data name="btn_eliminar.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="btn_eliminar.Text" xml:space="preserve">
-    <value>Eliminar</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grb_mantenimiento.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="btn_eliminar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grb_mantenimiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
   </data>
-  <data name="&gt;&gt;btn_eliminar.Name" xml:space="preserve">
-    <value>btn_eliminar</value>
+  <data name="grb_mantenimiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>512, 221</value>
   </data>
-  <data name="&gt;&gt;btn_eliminar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="grb_mantenimiento.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;btn_eliminar.Parent" xml:space="preserve">
+  <data name="grb_mantenimiento.Text" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.Name" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btn_eliminar.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;grb_mantenimiento.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_cancelar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btn_cancelar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_cancelar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 147</value>
+  </data>
+  <data name="btn_cancelar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 35</value>
+  </data>
+  <data name="btn_cancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btn_cancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Name" xml:space="preserve">
+    <value>btn_cancelar</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_guardar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btn_guardar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_guardar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 147</value>
+  </data>
+  <data name="btn_guardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 35</value>
+  </data>
+  <data name="btn_guardar.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btn_guardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Name" xml:space="preserve">
+    <value>btn_guardar</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txt_descripcion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 85</value>
+  </data>
+  <data name="txt_descripcion.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_descripcion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 20</value>
+  </data>
+  <data name="txt_descripcion.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Name" xml:space="preserve">
+    <value>txt_descripcion</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 84</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 18</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Descripción:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txt_codigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 32</value>
+  </data>
+  <data name="txt_codigo.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txt_codigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txt_codigo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.Name" xml:space="preserve">
+    <value>txt_codigo</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 31</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 18</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Código:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="btn_salir.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 11.25pt</value>
@@ -281,7 +399,7 @@
   <data name="btn_salir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAUXSURBVFhH1Zd/
+        5gAAAOYBIly6UQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAUXSURBVFhH1Zd/
         TJR1HMefe+65e+6eXzzPPfcDEQ9EEEGYBuwE0gyhA2e3AQYkG2w1/3E3iKzRRuAKWq4IXZS5Bp1rZlNK
         W+Was8I12Vot6Y9oplmtzVqWHgrB4QX36fN9ONyJh+ntRvOzvTee76/3i+/n+zz3+VL3dBiNxhpZlkck
         STpzJ7Lb7Z/4fL6ylJSUd8kzx3Fd4aViCzQ/n5+fD1lZWSCKIrAsCwUFBdDc3AwdHR23aPfu3dDf3w/d
@@ -310,13 +428,13 @@
     <value>NoControl</value>
   </data>
   <data name="btn_salir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>678, 296</value>
+    <value>673, 25</value>
   </data>
   <data name="btn_salir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 85</value>
+    <value>147, 95</value>
   </data>
   <data name="btn_salir.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>12</value>
   </data>
   <data name="btn_salir.Text" xml:space="preserve">
     <value>Salir</value>
@@ -331,10 +449,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_salir.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>grb_botones_principales</value>
   </data>
   <data name="&gt;&gt;btn_salir.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>0</value>
   </data>
   <data name="btn_reporte.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 11.25pt</value>
@@ -371,13 +489,13 @@
     <value>NoControl</value>
   </data>
   <data name="btn_reporte.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 296</value>
+    <value>505, 25</value>
   </data>
   <data name="btn_reporte.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 85</value>
+    <value>147, 95</value>
   </data>
   <data name="btn_reporte.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>11</value>
   </data>
   <data name="btn_reporte.Text" xml:space="preserve">
     <value>Reporte</value>
@@ -392,127 +510,189 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btn_reporte.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>grb_botones_principales</value>
   </data>
   <data name="&gt;&gt;btn_reporte.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 88</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 18</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Código:</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txt_codigo.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txt_codigo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 89</value>
-  </data>
-  <data name="txt_codigo.MaxLength" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="txt_codigo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="txt_codigo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;txt_codigo.Name" xml:space="preserve">
-    <value>txt_codigo</value>
+  <data name="btn_eliminar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 11.25pt</value>
   </data>
-  <data name="&gt;&gt;txt_codigo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btn_eliminar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAO8SURBVFhHxZdb
+        SFRBGIB3KzMtxMpizcuuUtCLUkEXIgokCsHSyiAqeqhotfQp3CVvGWleKiwjLVG0tLzVS5GXHjQjxQjy
+        ITQytSDS9bJaiqiZ/s0/6zl75uycdTOXHj7YmT3z/985M/PPOSoAcIzq9a5QpQ2FCt09qNQ1EjqgUjtq
+        AX+TPvwPr8FreTE4cDsZnmq9oUqXRxKMEMBBRugYHMuLKYHbSSnSLYPKgFQSbEwW/G8gY0kMjMXLQeB2
+        koEaQoskEGW6PBBeZ51hSNXfZpgoDWDGzIKxNLxcNh1QGRhE5vWbLABl8vEGiDX0whVDI2Qbyii7Qlop
+        QTs/gW9wN3xN8ILpR342Yy0xSWxZPqZBLiR3zk+OCAIv4k5BT5yKwXgshwp0XvSA/mQXOxLsk7Amp3PO
+        PvbGutNQ0pQh8qApC6LqvkN6bQUU1qZQDtYUUbY+ewXa8nYIq3lI2+F1xXCovgRSqi8D2R0SCZJDsias
+        ApYFJ70QMj88gcgpsIuqpt4uwQ3VMJyxXCZBcjECuF04q32hBHCKhtMZiTFhi1oELPucSY4spICNBOak
+        Ali1FIrMQgvIJEYwN7l7Ujo5yZHxYn+4m1AAMfEmRfx2dCuyN6IFvlxyYwSQISqhJU9BG6oiNljbuQLI
+        /cQCuvWUwK2nxL79zTbJBVBiukybj3sfDxZuckQqcC7fDFF3BsW2PtcMurhOMeHasI/gdaTNIQHEnOZu
+        QgE8ybjJEUEgOmuAzvnR8RmISTLBhat9EDkJoK5tAP8D3bBuWyeonzfQedeEWKriXAJ98YuniAA9TrnJ
+        EUFAn2cWF9759H6Iyh4UF6FO3wWaPR3iwlsT0e6QQI9BjQXo/wmYjOoZh6fAGQJ9CUt+ObwInSEwkLL0
+        h8Pb0BkCZBe02S1EiDMFfl5fkWS3FCPOEjAZF82Yc1Z52D2MEFGAFB1RIK0fom9a6gIm1J7tAu/dEoHw
+        uQXMqe5t1tNQ4ThGBAGs+8c/T8LJ1nHajjX2wom2CVj98j34brZUPrfMt+Ca2ww+W7rsCvQa1TCc7bnJ
+        KoBwXkikAkpgIiWUBIauub8R8loFOK9kzhAYSHYZJXfvaSuAcF5KS5OyINHwTpGN2zsViQyrZZKT2v97
+        6NbKYGlOVgCRvZZPlfhgxWICzQdMPnrD87A8H9MQkX2Y/KsEPnb5nQvYdIjIPs3mI4GrHRecdM7lcDsZ
+        JB+njkrQIkP2ubDV7MHt5DL7eT5ZqCnDQwRPMjxOEfyNfVjbsbxihePGsAFUfwAg/43QQbgZ/AAAAABJ
+        RU5ErkJggg==
+</value>
   </data>
-  <data name="&gt;&gt;txt_codigo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txt_codigo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txt_descripcion.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="txt_descripcion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 142</value>
-  </data>
-  <data name="txt_descripcion.MaxLength" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="txt_descripcion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>342, 20</value>
-  </data>
-  <data name="txt_descripcion.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txt_descripcion.Name" xml:space="preserve">
-    <value>txt_descripcion</value>
-  </data>
-  <data name="&gt;&gt;txt_descripcion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_descripcion.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txt_descripcion.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btn_eliminar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 141</value>
+  <data name="btn_eliminar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 25</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 18</value>
+  <data name="btn_eliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 95</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="btn_eliminar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Descripción:</value>
+  <data name="btn_eliminar.Text" xml:space="preserve">
+    <value>Eliminar</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="btn_eliminar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btn_eliminar.Name" xml:space="preserve">
+    <value>btn_eliminar</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btn_eliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_eliminar.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_eliminar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_actualizar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 11.25pt</value>
+  </data>
+  <data name="btn_actualizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAK+SURBVFhHtde7
+        a1RBFMfxMY3RBCMIgmAUHxElqGglqJ2lkKiglYWCEC3VP0BEFAsJCKKSxsIHWlqIYGLESvHRKKKEYIyV
+        j/hGVND1+7u5N5w5O5vskpsDH8idPWfO7s3sndlQqVTqQrSgG324jyH8wAc8wGUcwzbMcrVrcQ977Hj2
+        mh/wiOXQ5L+ggXq8wCG0Qs3fQ+N3q+b3AwVCxWfxB8XEjfqCMXM9WtXHD2SDIazEs7yoTP/QHPWyF9lA
+        CFvwGbawTJ1Rv+hi/JN/zBOn8g63MIBG3nBX1NM0b8OrPKmWm9A3YXE0CaseevMn4Gu8I1GtmaTXJHlf
+        sc8WesQa6K74Wu98VJcXd6DWatd3fKkt8gjdgTfwtSn9UW0+wTWTYH1Duy1IIZqhB41WuZ/DG3G12RPu
+        J3yi9NjkqRBz0Amtk6O4gH6M4C+UNORqwu78BW8Q0SN1OojZWI02Nx4uwTYudNvEmaLQxuKby6QLrywK
+        /X9887FU8kxQvM2bWgOp5OkgtDBH8RBXoK17FcJ6aNe7jdf4jYOpSaaD0GPbfkgZTiWWtvItojgTWCPJ
+        5LIRS0xTazBZUDZip2lq9flEPVIX2rEyEHdgGxd2+UQtQv2hPeApbuAk9mMrFtn8ehA9KBpaOtDO9cna
+        dn2ip0IdUptsbQqhA+13+DnkapbjCh6bhMlEO1oKsQxP8nxPW39HlueKam3Llo5s62ydRxxArU8uZyZy
+        XeFxk1TLaegA4398tGMHUg8c6yXmTdS5SfbmSfXQmV8HUjVMPWRSdPdWRD2jixA25YkzQSfnzbZf1jO6
+        CGFBnly258gWnVc9EMKnvEh0m/W1K64bpdV+Dq2+T6F6YHy71B96IxsxH4cxjGLiqeiHrJ4V0f87pXqA
+        rRh6Cm5w403YjlO4jkfQotId0k91nawuogsttra2SvgPkPVJLAa6K7IAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_actualizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_actualizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 25</value>
+  </data>
+  <data name="btn_actualizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 95</value>
+  </data>
+  <data name="btn_actualizar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btn_actualizar.Text" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="btn_actualizar.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.Name" xml:space="preserve">
+    <value>btn_actualizar</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_nuevo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 11.25pt</value>
+  </data>
+  <data name="btn_nuevo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        qgAAAKoBBgpwTwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAK4SURBVFhH7ZdL
+        aBNRFIbvvZlHMkmbkIRWafFFF1VQDCnFUhtJi7VCW7SIoiAq6spNEbRWd0XQduETtbQQ0PrcFEUK4qOg
+        m0KlPkDEheLKjWLrK2qaxOOZ6KST5DaZmboRcuBjcs/k/ucjj8mEAIAhKrzspF0kcUIIGEUUaBSPtbw8
+        DW4zG6wyRSaJZxEZJkcK8/6CAL3NBHweIeGQ2RTuX8TLVeE2s8Gq9peSxK+HdjDC9EUBzrcSWFdfGu3p
+        rIgrDvYWMzzcbF4zG9MClwTobyOwtq40mnxVA9vbfT9cim0Mc8Sc7OwGDysCg+0Emlb9Efj5Igj1QVfU
+        6WDXcrKzGzysCEQ2EAjXulICKpOPA7C4Uo7aJdaTka1fzIZZgfhVEa5sIhBY6oh+HA+AxpOby8ClsBjm
+        bUxn6wfNhlkBlQ+DIixfwJK4Vw3IQLSRs+ls/aDZwDItwCM2IMDhUFGgKPCfCvg66tgXXqgZLAuoJIal
+        17xQM5gWwJKI7JzAo7oAxih0bha44UawIhCm5VVxFnkH4rk34N16PSURe8AfUAgrAi104coEu/ENhKEp
+        8O++m3olvt/jDyhEUSCvANZ8Yi/pp+5599Monqd0STAlYLv8Cbz7HgGhFBpX+6CpwQ8tITe0hZxwdK8I
+        06P8oXryCzhcp+mK5iTdcwr0sL4xUAU0aPfwzLldJ8AZPgAevxdG+iTuUD2xARt0N6AAI2dyBGhJ2S26
+        ozdjmBE8XRPgrQpC5JAIL4dk6NomcDm4xQb71xBwSUS9Ien4pwJSZc1XDN2JVCPH83AMaUVYjsBc3gKm
+        +D5j6HotywwzD4x+CHELdZePps47vXeo5LxNGDuCfUEfbBRuUwOL+zVE7LznW4Hb1CgKYDVm/xjhhUi9
+        1c75i2UVblMDSyaS8hyP6uLvcJa+is0dIL8BnVDQ3dQLK/MAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btn_nuevo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_nuevo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 25</value>
+  </data>
+  <data name="btn_nuevo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 95</value>
+  </data>
+  <data name="btn_nuevo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn_nuevo.Text" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="btn_nuevo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.Name" xml:space="preserve">
+    <value>btn_nuevo</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grb_botones_principales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 298</value>
+  </data>
+  <data name="grb_botones_principales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 139</value>
+  </data>
+  <data name="grb_botones_principales.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Name" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;grb_botones_principales.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -527,7 +707,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>834, 393</value>
+    <value>865, 464</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
