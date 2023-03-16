@@ -52,6 +52,18 @@ namespace Presentacion
                 Registro = txt_codigo.Text.Trim() + " | " + txt_descripcion.Text.Trim();
              * .length : LongitudTexto= TextoSeleccionado.Length; para ver la longitud.
              * .Substring(0,3): desde la posicion 0, 3 elementos recolectar.
+             * SelectIndex: para capturar la posicion y guardarla en una variable:
+               int ElementoSeccionado = lst_mantenimiento.SelectedIndex;
+             * luego insertame esto en la posicion que tiene esta variable, este registro:
+               lst_mantenimiento.Items.Insert(ElementoSeccionado, Registro);
+
+                completo: 
+                    int ElementoSeccionado = lst_mantenimiento.SelectedIndex;
+
+                    lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItem);
+
+                    lst_mantenimiento.Items.Insert(ElementoSeccionado, Registro);
+             * 
              */
 
         }
