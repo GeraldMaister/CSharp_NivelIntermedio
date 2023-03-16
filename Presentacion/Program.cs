@@ -48,10 +48,12 @@ namespace Presentacion
              * Para eliminar: 
                lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItems);
              * MessageBox.Show("informacion"); sirve para que un cuadro de un msj.
-             * 
-             * 
+             * .trim: para limpiar o quitar los espacios en blanco.
+                Registro = txt_codigo.Text.Trim() + " | " + txt_descripcion.Text.Trim();
+             * .length : LongitudTexto= TextoSeleccionado.Length; para ver la longitud.
+             * .Substring(0,3): desde la posicion 0, 3 elementos recolectar.
              */
-           
+
         }
     }
 }

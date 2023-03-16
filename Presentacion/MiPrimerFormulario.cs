@@ -75,24 +75,52 @@ namespace Presentacion
         private void btn_guardar_Click_1(object sender, EventArgs e)
         {
             string Registro;
-            Registro = txt_codigo.Text + " | " + txt_descripcion.Text;
-            lst_mantenimiento.Items.Add(Registro);
+            if (txt_codigo.Text.Trim().Length != 3)
+            {
+                MessageBox.Show("Ingrese 3 digitos en el Codigo");
+            }
 
-            MessageBox.Show("Datos guardados");
+            else
+            {
+                Registro = txt_codigo.Text.Trim() + " | " + txt_descripcion.Text.Trim();
+                lst_mantenimiento.Items.Add(Registro);
 
-            txt_codigo.Text = "";
-            txt_descripcion.Text = "";
+                MessageBox.Show("Datos guardados");
 
-            grb_mantenimiento.Enabled = false;
-            grb_botones_principales.Enabled = true;
+
+                txt_codigo.Text = "";
+                txt_descripcion.Text = "";
+
+                grb_mantenimiento.Enabled = false;
+                grb_botones_principales.Enabled = true;
+
+
+            }
+
 
         }
 
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItems);
+            lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItem);
 
             MessageBox.Show("Elemento Eliminado");
+        }
+
+        private void lst_mantenimiento_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lst_mantenimiento_Click(object sender, EventArgs e)
+        {
+            string TextoSeleccionado;
+            int LongitudTexto;
+
+            TextoSeleccionado= lst_mantenimiento.SelectedItem.ToString().Trim();
+            LongitudTexto= TextoSeleccionado.Length;
+            txt_codigo.Text = TextoSeleccionado.Substring(0,3);
+            txt_descripcion.Text = TextoSeleccionado.Substring(6,LongitudTexto-6);
         }
     }
 }

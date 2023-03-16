@@ -393,6 +393,87 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;btn_salir.Name" xml:space="preserve">
+    <value>btn_salir</value>
+  </data>
+  <data name="&gt;&gt;btn_salir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_salir.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_salir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_reporte.Name" xml:space="preserve">
+    <value>btn_reporte</value>
+  </data>
+  <data name="&gt;&gt;btn_reporte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_reporte.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_reporte.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_eliminar.Name" xml:space="preserve">
+    <value>btn_eliminar</value>
+  </data>
+  <data name="&gt;&gt;btn_eliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_eliminar.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_eliminar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.Name" xml:space="preserve">
+    <value>btn_actualizar</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_actualizar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.Name" xml:space="preserve">
+    <value>btn_nuevo</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.Parent" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;btn_nuevo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grb_botones_principales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 298</value>
+  </data>
+  <data name="grb_botones_principales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 139</value>
+  </data>
+  <data name="grb_botones_principales.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Name" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="btn_salir.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 11.25pt</value>
   </data>
@@ -672,27 +753,6 @@
   </data>
   <data name="&gt;&gt;btn_nuevo.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="grb_botones_principales.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 298</value>
-  </data>
-  <data name="grb_botones_principales.Size" type="System.Drawing.Size, System.Drawing">
-    <value>826, 139</value>
-  </data>
-  <data name="grb_botones_principales.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.Name" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="lst_mantenimiento.Location" type="System.Drawing.Point, System.Drawing">
     <value>517, 48</value>

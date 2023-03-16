@@ -154,6 +154,8 @@
             this.lst_mantenimiento.FormattingEnabled = true;
             resources.ApplyResources(this.lst_mantenimiento, "lst_mantenimiento");
             this.lst_mantenimiento.Name = "lst_mantenimiento";
+            this.lst_mantenimiento.Click += new System.EventHandler(this.lst_mantenimiento_Click);
+            this.lst_mantenimiento.SelectedIndexChanged += new System.EventHandler(this.lst_mantenimiento_SelectedIndexChanged);
             // 
             // MiPrimerFormulario
             // 
