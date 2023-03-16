@@ -71,5 +71,19 @@ namespace Presentacion
         {
 
         }
+
+        private void btn_guardar_Click_1(object sender, EventArgs e)
+        {
+            string Registro;
+            Registro = txt_codigo.Text + " | " + txt_descripcion.Text;
+            lst_mantenimiento.Items.Add(Registro);
+
+            txt_codigo.Text = "";
+            txt_descripcion.Text = "";
+
+            grb_mantenimiento.Enabled = false;
+            grb_botones_principales.Enabled = true;
+
+        }
     }
 }

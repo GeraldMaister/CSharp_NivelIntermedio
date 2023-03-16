@@ -42,6 +42,7 @@
             this.btn_eliminar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_nuevo = new System.Windows.Forms.Button();
+            this.lst_mantenimiento = new System.Windows.Forms.ListBox();
             this.grb_mantenimiento.SuspendLayout();
             this.grb_botones_principales.SuspendLayout();
             this.SuspendLayout();
@@ -73,6 +74,7 @@
             resources.ApplyResources(this.btn_guardar, "btn_guardar");
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.UseVisualStyleBackColor = false;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click_1);
             // 
             // txt_descripcion
             // 
@@ -146,11 +148,18 @@
             this.btn_nuevo.UseVisualStyleBackColor = false;
             this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
+            // lst_mantenimiento
+            // 
+            this.lst_mantenimiento.FormattingEnabled = true;
+            resources.ApplyResources(this.lst_mantenimiento, "lst_mantenimiento");
+            this.lst_mantenimiento.Name = "lst_mantenimiento";
+            // 
             // MiPrimerFormulario
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
+            this.Controls.Add(this.lst_mantenimiento);
             this.Controls.Add(this.grb_botones_principales);
             this.Controls.Add(this.grb_mantenimiento);
             this.Name = "MiPrimerFormulario";
@@ -176,5 +185,6 @@
         private System.Windows.Forms.Button btn_eliminar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_nuevo;
+        private System.Windows.Forms.ListBox lst_mantenimiento;
     }
 }

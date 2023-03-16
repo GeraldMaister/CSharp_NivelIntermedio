@@ -41,7 +41,11 @@ namespace Presentacion
              * propiedad visible: para que esten oculto o que aparezcan.
              * propiedad flatStyle: para dar estilo a los objeto.
              * contenedores: groupBox: 
-             * 
+             * listbox: para guaradr listas de elementos con: 
+               string Registro;
+               Registro = txt_codigo.Text + " " + txt_descripcion.Text;
+               lst_mantenimiento.Items.Add(Registro);
+             * MessageBox.Show("informacion"); sirve para que un cuadro de un msj.
              * 
              * 
              */
