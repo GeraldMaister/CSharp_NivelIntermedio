@@ -117,6 +117,107 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;btn_cancelar.Name" xml:space="preserve">
+    <value>btn_cancelar</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;btn_cancelar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Name" xml:space="preserve">
+    <value>btn_guardar</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;btn_guardar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Name" xml:space="preserve">
+    <value>txt_descripcion</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;txt_descripcion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.Name" xml:space="preserve">
+    <value>txt_codigo</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;txt_codigo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grb_mantenimiento.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grb_mantenimiento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 39</value>
+  </data>
+  <data name="grb_mantenimiento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 221</value>
+  </data>
+  <data name="grb_mantenimiento.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="grb_mantenimiento.Text" xml:space="preserve">
+    <value>Mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.Name" xml:space="preserve">
+    <value>grb_mantenimiento</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grb_mantenimiento.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btn_cancelar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -124,14 +225,12 @@
   <data name="btn_cancelar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btn_cancelar.Location" type="System.Drawing.Point, System.Drawing">
     <value>196, 147</value>
   </data>
   <data name="btn_cancelar.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 35</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btn_cancelar.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
@@ -293,114 +392,6 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="grb_mantenimiento.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="grb_mantenimiento.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 39</value>
-  </data>
-  <data name="grb_mantenimiento.Size" type="System.Drawing.Size, System.Drawing">
-    <value>486, 221</value>
-  </data>
-  <data name="grb_mantenimiento.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="grb_mantenimiento.Text" xml:space="preserve">
-    <value>Mantenimiento</value>
-  </data>
-  <data name="&gt;&gt;grb_mantenimiento.Name" xml:space="preserve">
-    <value>grb_mantenimiento</value>
-  </data>
-  <data name="&gt;&gt;grb_mantenimiento.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grb_mantenimiento.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grb_mantenimiento.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btn_salir.Name" xml:space="preserve">
-    <value>btn_salir</value>
-  </data>
-  <data name="&gt;&gt;btn_salir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_salir.Parent" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;btn_salir.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn_reporte.Name" xml:space="preserve">
-    <value>btn_reporte</value>
-  </data>
-  <data name="&gt;&gt;btn_reporte.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_reporte.Parent" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;btn_reporte.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_eliminar.Name" xml:space="preserve">
-    <value>btn_eliminar</value>
-  </data>
-  <data name="&gt;&gt;btn_eliminar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_eliminar.Parent" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;btn_eliminar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btn_actualizar.Name" xml:space="preserve">
-    <value>btn_actualizar</value>
-  </data>
-  <data name="&gt;&gt;btn_actualizar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_actualizar.Parent" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;btn_actualizar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btn_nuevo.Name" xml:space="preserve">
-    <value>btn_nuevo</value>
-  </data>
-  <data name="&gt;&gt;btn_nuevo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_nuevo.Parent" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;btn_nuevo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="grb_botones_principales.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 298</value>
-  </data>
-  <data name="grb_botones_principales.Size" type="System.Drawing.Size, System.Drawing">
-    <value>826, 139</value>
-  </data>
-  <data name="grb_botones_principales.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.Name" xml:space="preserve">
-    <value>grb_botones_principales</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grb_botones_principales.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="btn_salir.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 11.25pt</value>
@@ -681,6 +672,27 @@
   </data>
   <data name="&gt;&gt;btn_nuevo.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="grb_botones_principales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 298</value>
+  </data>
+  <data name="grb_botones_principales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 139</value>
+  </data>
+  <data name="grb_botones_principales.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Name" xml:space="preserve">
+    <value>grb_botones_principales</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grb_botones_principales.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lst_mantenimiento.Location" type="System.Drawing.Point, System.Drawing">
     <value>517, 48</value>

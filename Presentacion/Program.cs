@@ -45,16 +45,13 @@ namespace Presentacion
                string Registro;
                Registro = txt_codigo.Text + " " + txt_descripcion.Text;
                lst_mantenimiento.Items.Add(Registro);
+             * Para eliminar: 
+               lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItems);
              * MessageBox.Show("informacion"); sirve para que un cuadro de un msj.
              * 
              * 
              */
-            string nombre;
-            string apellido;
-
-            nombre = "Gerald";
-            apellido = "leonardo";
-            Console.WriteLine("{0}", nombre , apellido );
+           
         }
     }
 }

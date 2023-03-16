@@ -78,12 +78,21 @@ namespace Presentacion
             Registro = txt_codigo.Text + " | " + txt_descripcion.Text;
             lst_mantenimiento.Items.Add(Registro);
 
+            MessageBox.Show("Datos guardados");
+
             txt_codigo.Text = "";
             txt_descripcion.Text = "";
 
             grb_mantenimiento.Enabled = false;
             grb_botones_principales.Enabled = true;
 
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItems);
+
+            MessageBox.Show("Elemento Eliminado");
         }
     }
 }

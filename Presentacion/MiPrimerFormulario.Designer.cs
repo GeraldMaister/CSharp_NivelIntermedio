@@ -130,6 +130,7 @@
             this.btn_eliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.UseVisualStyleBackColor = false;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // btn_actualizar
             // 
