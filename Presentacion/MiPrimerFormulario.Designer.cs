@@ -90,6 +90,7 @@
             // 
             resources.ApplyResources(this.txt_codigo, "txt_codigo");
             this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.TextChanged += new System.EventHandler(this.txt_codigo_TextChanged);
             // 
             // label1
             // 

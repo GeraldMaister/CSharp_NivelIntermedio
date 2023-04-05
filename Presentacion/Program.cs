@@ -64,6 +64,8 @@ namespace Presentacion
 
                     lst_mantenimiento.Items.Insert(ElementoSeccionado, Registro);
              * 
+             * Readonly: para que solo el objeto se pueda leer.
+             * 
              */
 
         }

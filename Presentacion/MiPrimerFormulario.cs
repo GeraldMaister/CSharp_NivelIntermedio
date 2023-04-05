@@ -30,7 +30,7 @@ namespace Presentacion
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
             //añade registro si tiene un 1
-            NestadoGuarda = 1; 
+            NestadoGuarda = 1;
             //cuando entres a nuevo la lista se deshabilita
             lst_mantenimiento.Enabled = false;
 
@@ -42,7 +42,7 @@ namespace Presentacion
             grb_mantenimiento.Enabled = true;
             txt_codigo.Enabled = Enabled;
             grb_botones_principales.Enabled = false;
-            
+
             //comienza desde el txt de codigo, es el principal tag.
             txt_codigo.Focus();
 
@@ -61,14 +61,14 @@ namespace Presentacion
             //se habilita la lista de mantenimiento.
             lst_mantenimiento.Enabled = true;
 
-         
+
         }
 
-    
+
 
         private void btn_guardar_Click_1(object sender, EventArgs e)
         {
-            
+
             string Registro;
             //este if para que tenga que poner 3 digitos en el codigo.
             if (txt_codigo.Text.Trim().Length != 3)
@@ -80,7 +80,7 @@ namespace Presentacion
             {
                 Registro = txt_codigo.Text.Trim() + " | " + txt_descripcion.Text.Trim();
 
-                if(NestadoGuarda==1)
+                if (NestadoGuarda == 1)
                 {
                     //nuevo registro
                     lst_mantenimiento.Items.Add(Registro);
@@ -106,16 +106,16 @@ namespace Presentacion
 
                     lst_mantenimiento.Items.Insert(ElementoSeccionado, Registro);
 
-             
+
 
                     grb_mantenimiento.Enabled = false;
                     grb_botones_principales.Enabled = true;
                     lst_mantenimiento.Enabled = true;
 
                 }
-                
 
-                
+
+
 
             }
 
@@ -124,9 +124,39 @@ namespace Presentacion
 
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItem);
+            
 
-            MessageBox.Show("Elemento Eliminado");
+
+            if (MessageBox.Show("Desea eliminar el elemento seleccionado?", "Eliminar",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+
+               
+                lst_mantenimiento.Items.Remove(lst_mantenimiento.SelectedItem);
+
+                MessageBox.Show("Elemento eliminado");
+
+
+            }
+
+            else
+            {
+                MessageBox.Show("No se elimino el elemento");
+            }
+
+            txt_codigo.Text = "";
+            txt_descripcion.Text = "";
+
+            grb_mantenimiento.Enabled = false;
+            grb_botones_principales.Enabled = true;
+
+
+
+
+
+
+          
+
+
         }
 
         private void lst_mantenimiento_SelectedIndexChanged(object sender, EventArgs e)
@@ -155,6 +185,16 @@ namespace Presentacion
             lst_mantenimiento.Enabled = false;
 
             txt_codigo.Focus();
+        }
+
+        private void txt_codigo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
